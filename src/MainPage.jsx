@@ -10,7 +10,7 @@ import {
   Button
 } from "reactstrap";
 
-const url = "http://localhost:3000";
+let url = "http://localhost:3000";
 class MainPage extends Component {
   state = {
     categories: [],
